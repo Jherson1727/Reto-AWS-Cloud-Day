@@ -1,0 +1,186 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Crear la estructura del proyecto y los archivos base": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908957502
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908961552
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909407856
+      }
+    ],
+    "2.1 Implementar `validate_name(raw: str | None) -> str | None`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908957903
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909411050
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909482753
+      }
+    ],
+    "2.3 Implementar `extract_name(event: dict) -> tuple[str | None, str]`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958081
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909494198
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909569556
+      }
+    ],
+    "3.1 Implementar `build_greeting(name: str | None, source: str) -> dict`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958239
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909413715
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909486460
+      }
+    ],
+    "3.3 Implementar `build_response(status_code: int, body: dict) -> dict`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958426
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909416312
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909489111
+      }
+    ],
+    "4.1 Implementar `lambda_handler(event: dict, context) -> dict`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958530
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909894058
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909952386
+      }
+    ],
+    "5. Checkpoint — Verificar tests de ejemplo": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958637
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909956083
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910063247
+      }
+    ],
+    "6.1 Escribir los generadores `hypothesis` reutilizables": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958732
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910066205
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910199987
+      }
+    ],
+    "7. Checkpoint final — Verificar suite completa": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790908958818
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910207892
+      },
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910225394
+      }
+    ],
+    "3. Implementar las funciones de construcción de respuesta": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909489207
+      }
+    ],
+    "2. Implementar las funciones de validación y extracción de nombre": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909569693
+      }
+    ],
+    "4. Implementar el handler principal `lambda_handler`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790909952543
+      }
+    ],
+    "6. Escribir los tests de propiedades con `hypothesis`": [
+      {
+        "executionId": "ec3778e2-f91d-41a2-853f-9a343f911458",
+        "chatSessionId": "sess_99ac5bd9-52a1-4047-947d-c7fd61e7fd5f",
+        "timestamp": 1790910200169
+      }
+    ]
+  }
+}
